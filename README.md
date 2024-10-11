@@ -9,6 +9,10 @@ This guide will help you set up Razorpay payment integration with Express.js. It
 2. MongoDB installed and running
 3. Razorpay account (for API keys)
 
+## .env setup
+RAZORPAY_KEY_ID=rzp_test_cAa3gCF0eP8i4R
+RAZORPAY_KEY_SECRET=oXo3dmmWmWJhvg6AuEU6etJ7
+
 ## Setup
 
 ### 1. Install Razorpay
@@ -248,6 +252,5 @@ router.post('/api/payment/verify', async (req, res) => {
 });
 
 ```
-
 
 
